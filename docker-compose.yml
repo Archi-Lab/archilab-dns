@@ -4,5 +4,5 @@ services:
   coredns:
     image: archilab-dns
     ports:
-      - "1053:53"
-      - "1053:53/udp"
+      - "53:53"
+      - "53:53/udp"
