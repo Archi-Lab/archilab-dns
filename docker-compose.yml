@@ -1,0 +1,8 @@
+version: "3.7"
+
+services:
+  coredns:
+    image: archilab-dns
+    ports:
+      - "1053:53"
+      - "1053:53/udp"

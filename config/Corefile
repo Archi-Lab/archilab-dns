@@ -1,0 +1,11 @@
+. {
+    forward . 139.6.1.130
+    log
+    errors
+}
+
+internal.archi-lab.io {
+    file db.internal.archi-lab.io
+    log
+    errors
+}
